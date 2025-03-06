@@ -1,12 +1,12 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Micro+5&display=swap');
 
 * {
   box-sizing: border-box;
 }
 
 body {
-  background-color: rgb(161, 100, 223);
-  font-family: "Poppins", sans-serif;
+  background-color: rgb(252, 222, 156);
+  font-family: "Micro 5", sans-serif;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -18,19 +18,26 @@ body {
 }
 
 .btn {
-  background-color: rebeccapurple;
-  border-radius: 5px;
+  background-color: rgb(255, 165, 82);
+  border-radius: 40px;
   border: none;
   color: #fff;
   margin: 1rem;
   padding: 1.5rem 3rem;
-  font-size: 1.2rem;
+  font-size: 2rem;
   font-family: inherit;
   cursor: pointer;
+  box-shadow: 0 10px #888;
 }
 
 .btn:hover {
   opacity: 0.9;
+}
+
+.btn:active {
+    opacity: 0.9;
+    box-shadow: 0 5px #555;
+    transform: translateY(4px);
 }
 
 .btn:focus {
