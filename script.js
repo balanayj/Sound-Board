@@ -1,5 +1,5 @@
 // Create an array of sounds
-const sounds = ["applause", "boo", "gasp", "tada", "victory", "wrong"];
+const sounds = ["coin", "explosion", "hit", "jump", "power", "shoot"];
 
 // For each sound, create a button, add a class 'btn', update the text, append to DOM
 sounds.forEach((sound) => {
